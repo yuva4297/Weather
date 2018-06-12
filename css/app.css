@@ -1,8 +1,23 @@
-.input-group
-{
-    margin-top: 20px;
+body{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.btn-primary
-{
-    margin-top: 20px;
+button {
+    margin-top: 30px;
+}
+
+.results-hide {
+    display: none;
+}
+
+.results-show {
+    display: block;
+}
+
+#chart-container {
+    min-width: 350px;
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto
 }
